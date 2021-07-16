@@ -1,0 +1,17 @@
+.container {
+    background-color: gold;
+    width: 1000px;
+    height: 1000px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
