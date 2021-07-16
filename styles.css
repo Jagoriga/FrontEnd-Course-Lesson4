@@ -1,0 +1,98 @@
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+
+ul {
+    list-style-type:circle;   
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+    background-color: seashell;
+}
+
+.navflex {
+    background-color: sandybrown;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+.navflex ul{
+    display: flex;    
+}
+
+li{
+    margin:20px;       
+}
+
+.main-title {
+    font-size: 35px;
+    color: steelblue;   
+}
+
+.div-grid {
+    background-color: sandybrown;
+    display: grid;
+    grid-template-areas: "DIV1 DIV2 DIV3";
+    grid-template-columns: (auto);
+    column-gap: 16px;
+    
+    }
+
+.div-grid div{
+    width: (auto);
+    height: 300px;
+  
+}
+
+.div1{
+    background: url(https://st.depositphotos.com/1817276/1444/i/600/depositphotos_14442485-stock-photo-cloudy-blue-sky-and-wood.jpg);
+}
+
+.div2{
+    background: url(https://static3.depositphotos.com/1007979/246/i/600/depositphotos_2462632-stock-photo-abstract-background.jpg);
+    
+}
+
+.div3{
+    background: url(https://cf2.ppt-online.org/files2/slide/r/rWdIzvcMFX13k6uqfsH5yj2Q0oebL4APDUZVnR/slide-0.jpg);
+}
+
+.contacts-inputs {
+     
+    margin-bottom: 5px 
+    
+}
+fieldset{
+    width: (auto);
+}
+
+
+textarea{
+    color: violet;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    .div-grid{
+        
+        grid-template-areas: 
+        "DIV1"
+        "DIV2"
+        "DIV3";
+        row-gap: 16px;   
+    }
+    .div-grid div {
+        width: (auto);
+        height: 300px;  
+    }
+}
+   
+    
+    
+    
